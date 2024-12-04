@@ -1,21 +1,15 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-// import Stats from './Stats';
-// import { UserStats } from './UserStats';
+
 import profile from '../img/unnamed.webp';
-// import product from '../img/carbon_product (1).png';
-// import { Packages } from './Packages';
-// import { Ideas } from './Ideas';
-// import { Posts } from './Posts';
-// import { Coupons } from './Coupons';
-// import { BookingPage } from './BookingPage';
+
 import { Notification } from './Notification';
 
 import { useNavigate } from 'react-router-dom'; // For navigation
 import { signOut } from 'firebase/auth'; // Firebase signOut method
 import { auth } from '../firebase';
 import { UserStats } from './UserStats';
-import { CoinData } from './CoinData';
+
 import Stats from './Stats';
 import { PaymentLikns } from './PaymentLikns';
 // import { PaymentHistory } from './PaymentHistory';
